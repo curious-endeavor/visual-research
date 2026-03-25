@@ -1,4 +1,12 @@
-# Visual Research
+<div align="center">
+  <h1>Visual Research</h1>
+  <p>Deep brand intelligence, automated.<br/>Built by <a href="https://curiousendeavor.com">Curious Endeavor</a>.</p>
+  <img src="https://img.shields.io/badge/Claude_Code-Skill-CC0000?style=flat-square&logo=anthropic&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/github/license/curious-endeavor/visual-research?style=flat-square" />
+</div>
+
+---
 
 Analyze any brand's visual identity. A Claude Code skill by [Curious Endeavor](https://curiousendeavor.com).
 
