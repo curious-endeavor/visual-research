@@ -10,7 +10,7 @@ The skill is invoked conversationally ("research Cash App", "visual research on 
 
 ## Repository Structure
 
-- **`SKILL.md`** — The skill definition. This is what Claude reads when the skill is invoked. Contains the full pipeline spec, input format, phase definitions, image embedding procedure, and OpenClaw deployment options.
+- **`SKILL.md`** — The skill definition. This is what Claude reads when the skill is invoked. Contains the full pipeline spec, input format, phase definitions, and image embedding procedure.
 - **`templates/report.html`** — HTML report template with `{{PLACEHOLDER}}` variables and `data-slot` image positions. Full-width layout with sticky CE bar, hero block, pill-track navigation, and 12 report sections. Uses CSS custom properties for branding (`:root` block). Fonts: Larken (Adobe Fonts, headlines), Inter (Google Fonts, body), JetBrains Mono (Google Fonts, technical labels). CE logo is base64-embedded.
 - **`templates/assets/ce-logo-red.png`** — CE logo source file (embedded in the template as base64).
 - **`references/`** — Supporting docs the skill reads during execution:
@@ -29,8 +29,6 @@ The skill is invoked conversationally ("research Cash App", "visual research on 
 **CE Styleguide rules** (from `references/ce-styleguide.md`): White background, `#CC0000` red used sparingly (section labels only), no shadows/rounded corners, generous whitespace, light font weights for body. Hero overlay gradient is the one exception to the no-gradients rule.
 
 **Section mapping:** The 13-section markdown research doc maps to a different order in the HTML report. Sections 04+05 merge into "Brand Identity", Section 13 is absorbed into Social/Personality, and new synthesized sections (TL;DR, Signal) are added. See `references/brand-audit-framework.md` for the full mapping table.
-
-**OpenClaw deployment:** The skill can run locally (no timeout) or via OpenClaw sub-agents on the VPS. For OpenClaw, either increase timeout to 20min or split into Gather (phases 1-4) and Package (phase 5) agents.
 
 ## When Editing
 

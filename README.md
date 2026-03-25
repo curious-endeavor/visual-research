@@ -69,8 +69,6 @@ The skill produces two files:
 
 The HTML report follows the [Curious Endeavor styleguide](https://www.curiousendeavor.com/styleguide.html) — Larken headlines, Inter body text, JetBrains Mono for technical labels, #CC0000 red accent used sparingly.
 
-See [examples/sample-report.html](examples/sample-report.html) for a full Cash App analysis.
-
 ## Customization
 
 The report template uses CSS variables. Change the branding by editing the `:root` block in `templates/report.html`:
@@ -132,9 +130,6 @@ visual-research/
     source-discovery-guide.md           # Where to find brand assets
     image-extraction-techniques.md      # Instagram API, Prismic, yt-dlp recipes
     ce-styleguide.md                    # Curious Endeavor design rules
-  examples/
-    sample-analysis.md                  # Sample markdown output (Cash App)
-    sample-report.html                  # Sample HTML report (Cash App)
 ```
 
 ## About
